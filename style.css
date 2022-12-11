@@ -111,10 +111,16 @@ footer button {
     height: 3.4rem;
     border-radius: 2rem;
     top: 1%;
-    right: 24%;
+    right: 32%;
     transform: translate(30% ,31%);
     border: none;
     box-shadow: -19px 20px 15px -10px rgba(138, 11, 89, 0.33);
+    transition: 0.5s;
+}
+ button:hover {
+    width: 4rem;
+    box-shadow: -19px 20px 15px -10px rgba(251, 188, 188, 0.745);
+    transition: 0.5s;
 }
 
 .form-control.error input{
